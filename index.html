@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+      // functions are Values
+      // we can save a function inside a variable
+
+      const num = 2;
+
+      const function1 = function greeting() {
+        console.log("hello");
+      };
+
+      console.log(function1);
+      console.log(typeof function1);
+      function1();
+
+      //anonymous function
+
+      const function2 = function () {
+        console.log("hello");
+      };
+
+      //functions can be saved in an object (Method)
+
+      const object1 = {
+        num: 2,
+        fun: function () {
+          console.log("hello3");
+        },
+      };
+      object1.fun();
+
+      // we can pass a value into a function
+      function display(param) {
+        console.log(param);
+      }
+      display(2);
+
+      // we can pass a function into a function (callback function)
+
+      function run(param) {
+        param();
+      }
+      run(function () {
+        console.log("hello4");
+      });
+      */
+
+      // setTimeout is an inbuilt function
+
+      setTimeout(function () {
+        console.log("timeout");
+        console.log("timeout2");
+      }, 3000);
+
+      console.log("next line");
+      //Asynchronous Code - won't wait for a line to finish before going to the next line
+      //Synchronous Code -  will wait for a line to finish before going to the next line
+
+      // setInterval - it will keep running a function in the future after a certain period of time
+      // setInterval(function () {
+      //   console.log("interval");
+      // }, 3000);
+      // console.log("nextline 2");
+    </script>
+  </body>
+</html>
